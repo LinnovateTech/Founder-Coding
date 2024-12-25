@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        'custom-blue': '0px 4px 24px rgba(23, 92, 230, 0.15)',
+      },
       colors: {
         'branco-gelo': "#F5F5F5",
         'verde-musgo': "#556B2F",

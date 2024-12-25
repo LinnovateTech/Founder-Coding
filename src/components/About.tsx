@@ -2,10 +2,8 @@ import React from "react";
 
 function About() {
     return (
-        <div className="flex items-center justify-center"
-            aria-label="Container Centralizado">
-            <main className="container p-8 bg-gray-100 rounded-lg shadow-md mx-auto max-w-4xl"
-                aria-label="Seção sobre nós">
+        <div className="flex items-center justify-center w-full">
+            <main className="container bg-gray-100 rounded-lg shadow-md mx-auto p-8 max-w-4xl">
                 <h2 className="text-center text-2xl font-bold text-preto-suave mb-4">Sobre Nós</h2>
 
                 <p className="text-lg text-gray-700 mb-6">Na Linnovate, transformamos ideias em soluções digitais incríveis.
